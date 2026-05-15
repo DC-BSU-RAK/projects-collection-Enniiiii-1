@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@drawable/fighter_card_bg">
+
+    <ImageView
+        android:id="@+id/fighterImage"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/filia" />
+
+    <TextView
+        android:id="@+id/fighterName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="@font/viga"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="Filia"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fighterDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#BBBBBB"
+        android:fontFamily="@font/viga"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/fighterStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#BBBBBB"
+        android:fontFamily="@font/viga"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/favIcon"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        app:srcCompat="@drawable/ic_fav_outline" />
+
+</LinearLayout>
